@@ -1,0 +1,13 @@
+com\ysy\ysyapicommon\model\entity\Post.class
+com\ysy\ysyapicommon\service\InnerUserInterfaceInfoService.class
+com\ysy\ysyapicommon\model\enums\InterfaceInfoStatusEnum.class
+com\ysy\ysyapicommon\model\vo\UserVO.class
+com\ysy\ysyapicommon\model\entity\User.class
+com\ysy\ysyapicommon\model\enums\PostGenderEnum.class
+com\ysy\ysyapicommon\model\enums\PostReviewStatusEnum.class
+com\ysy\ysyapicommon\service\InnerUserService.class
+com\ysy\ysyapicommon\model\entity\InterfaceInfo.class
+com\ysy\ysyapicommon\model\entity\MqMessage.class
+com\ysy\ysyapicommon\model\entity\UserInterfaceInfo.class
+com\ysy\ysyapicommon\service\InnerInterfaceInfoService.class
+com\ysy\ysyapicommon\model\vo\PostVO.class

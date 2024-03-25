@@ -1,0 +1,34 @@
+server:
+  port: 8201
+
+spring:
+  application:
+    name: ysyapi-mqconsumer
+  # session 失效时间（分钟）
+  session:
+    timeout: 86400
+    store-type: redis
+  # redis 配置
+  redis:
+    port: 6379
+    host: localhost
+    database: 0
+    redisson:
+      file: classpath:redisson.yml
+  # rabbitmq
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: trace
+  charset:
+    console: UTF-8
